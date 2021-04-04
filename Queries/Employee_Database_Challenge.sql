@@ -279,6 +279,10 @@ WHERE (et.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND ti.to_date = '9999-01-01'
 ORDER BY et.emp_no ASC;
 
+SELECT COUNT (emp_no)
+FROM mentorship_eligibility;
+
+
 SELECT * FROM mentorship_eligibility;
 
 

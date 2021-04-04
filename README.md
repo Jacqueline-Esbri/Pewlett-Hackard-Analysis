@@ -35,10 +35,12 @@ However, after performing further analysis, it was found that the number of empl
 ![ret_titles.PNG](PNGs/ret_titles.png)
 
 ## Fig. 3
+
 ### List of Existing Managers by Departments
 ![mng_dept.PNG](PNGs/mng_dept.png)
 
 ## Fig. 4
+
 ### List of Total Departments
 ![total_dept.PNG](PNGs/total_dept.png)
 
@@ -50,4 +52,9 @@ In conclusion, the number of retirement-eligible employees was massive. The find
 The company is also lacking management positions. There were five listed department managers for nine departments. A good question to ask the company is why there were no managers for the Marketing, Finance, and Development departments. Because these departments are vital in all organizations, this potential issue should be addressed accordingly.
 
 Out of 300 thousand plus employees, the average yearly salary was $52,970. 
-In order to fill the staggering vacancies they face in the future, they may need to adjust their salaries to attract new talent, and also keep their existing talent. Adjusting the salaries may prevent future costly turnovers. Finally, there were over 1,500 employees eligible for the mentorship program. The company will need additional staff to accomplish the success of the planned program.
+In order to fill the staggering vacancies they face in the future, they may need to adjust their salaries to attract new talent, and also keep their existing talent. Adjusting the salaries may prevent future costly turnovers. Finally, there are 1,549 employees eligible for the mentorship program. The company will need additional staff to accomplish the success of the planned program.
+
+## Fig. 5
+
+### Total Count Eligible for Mentorship Program
+![total_mnt.PNG](PNGS/total_mnt.png)
