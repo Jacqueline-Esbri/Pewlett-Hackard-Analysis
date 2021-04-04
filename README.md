@@ -57,4 +57,4 @@ In order to fill the staggering vacancies they face in the future, they may need
 ## Fig. 5
 
 ### Total Count Eligible for Mentorship Program
-![total_mnt.PNG](PNGS/total_mnt.png)
+![total_mnt.PNG](PNGs/total_mnt.png)
