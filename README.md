@@ -14,7 +14,7 @@ Six CSV files were provided for this project. The files contained information ab
 
 ## Results
 
-The beginning of the analysis showed that there were 300,025 employees listed on the company's record. We then counted the employees eligible for retirement out of that list, and the result found 41,380 eligible employees. However, after employee's list was updated by counting current employees, it showed that 36,619 were eligible for retirement.
+The beginning of the analysis showed that there were 300,025 employees listed on the company's record. We then counted the employees eligible for retirement out of that list, and the result found 41,380 eligible employees. After the employees' list was updated by counting current employees, it showed that 36,619 were eligible for retirement.
 
 However, after performing further analysis, it was found that the number of employees eligible for retirement by titles was more that double (90,398). It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, the mock company was provided with the following:
 
@@ -26,7 +26,7 @@ However, after performing further analysis, it was found that the number of empl
 
 ## Fig 1
 
-### Sum of Retirement Eligible Employees (before analysis)
+### Sum of Retirement-Eligible Employees (before analysis)
 ![sum_ret_emp.PNG](PNGs/sum_ret_emp.png)
 
 ## Fig. 2
@@ -45,7 +45,7 @@ However, after performing further analysis, it was found that the number of empl
 
 ## Summary
 
-In conclusion, the number of retirement-eligible employees was massive. The findings showed that over 90,000 will be eligible to retire in their near future. Furthermore, these employees will become eligible to retire around the same time. 
+In conclusion, the number of retirement-eligible employees was massive. The findings showed that over 90,000 will be eligible to retire in the company's near future. Furthermore, these employees will become eligible to retire around the same time. 
 
 The company is also lacking management positions. There were five listed department managers for nine departments. A good question to ask the company is why there were no managers for the Marketing, Finance, and Development departments. Because these departments are vital in all organizations, this potential issue should be addressed accordingly.
 
