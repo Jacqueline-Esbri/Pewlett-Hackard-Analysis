@@ -24,7 +24,7 @@ However, after performing further analysis, it was found that the number of empl
 
 ## Fig.1
 
-### Employees listed on Records
+### Employees Listed on Records
 ![emp_count_bf.PNG](PNGs/emp_count_bf.png)
 
 ## Fig.2
