@@ -14,7 +14,7 @@ Six CSV files were provided for this project. The files contained information ab
 
 The beginning of the analysis showed that there were 300,025 employees listed on the company's record. We then counted the employees eligible for retirement (born between 1952 and 1955) out of that list, and the result found 41,380 eligible employees. Due to the staggering number of retirement ready employees, we were tasked to break down the list by departments to find employees who were no longer with the company. After the employees' list was updated by counting current employees, it showed that 33,118 were eligible for retirement.
 
-However, after performing further analysis, it was found that the number of employees eligible for retirement was 90,398, triple the amount of original number. It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, Pewlett-Hackard was provided with the following:
+However, after performing further analysis, it was found that the number of employees eligible for retirement was 90,398...triple the amount of original number. It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, Pewlett-Hackard was provided with the following:
 
 - Narrow search for retirement eligibility
 - A specific number of employees retiring by title
@@ -78,6 +78,7 @@ The analysis also showed that 5,800 employees are retiring from the Sales Depart
 
 ## Fig.9
 
+## Retiring Sales Dept.
 ![ret_sales.PNG](PNGs/ret_sales.png)
 
 ## Fig.10
@@ -85,10 +86,13 @@ The analysis also showed that 5,800 employees are retiring from the Sales Depart
 ### Total Count Eligible for Mentorship Program
 ![total_mnt.PNG](PNGs/total_mnt.png)
 
-## Fig.11 & 11a
+## Fig.11 
 
 ### Total Count Eligible for Mentorship Program by Title
-![ment_by_title.PNG](PNGs/ment_by_title)
+![ment_by_title.PNG](PNGs/ment_by_title.png)
+
+## Fig.11a
+
 ### Versus Retiring by Same Titles
 ![ret_titles.PNG](PNGs/ret_titles.png)
 
