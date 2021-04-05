@@ -7,14 +7,14 @@ For this assignment, we were introduced to Structured Query Language (SQL), pgAd
 
 An organization named Pewlett-Hackard was looking to offer retirement packages for their employees who met certain criteria. Additionally, it was looking into which positions needed to be filled as a result of an expected "silver tsunami". Our analysis was focused on determining the number of retiring employees by title, and identify employees who were eligible, based on their criteria, to partake in their planned mentorship program.
 
-Six CSV files were provided for this project. The files contained information about departments, employees, department employees, department managers, salaries, and employees titles. Our job entailed creating queries to access and analyse of all the data. Common errors were also handled in the process, such as duplicate name entries due to outdated records. The analysis found employees who no longer work for the company and duplicate name entries due to promotions. 
+Six CSV files were provided for this project. The files contained information about departments, employees, department employees, department managers, salaries, and employees titles. Our job entailed creating queries to access and analyze of all the data. Common errors were also handled in the process, such as duplicate name entries due to outdated records. The analysis found employees who no longer work for the company and duplicate name entries due to promotions. 
 
 
 ## Results
 
 The beginning of the analysis showed that there were 300,025 employees listed on the company's record. We then counted the employees eligible for retirement (born between 1952 and 1955) out of that list, and the result found 41,380 eligible employees. Due to the staggering number of retirement ready employees, we were tasked to break down the list by departments to find employees who were no longer with the company. After the employees' list was updated by counting current employees, it showed that 33,118 were eligible for retirement.
 
-However, after performing further analysis, it was found that the number of employees eligible for retirement was 90,398...triple the amount of original number. It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, Pewlett-Hackard was provided with the following:
+However, after performing further analysis, it was found that the number of employees eligible for retirement was 90,398 (triple the amount of original number). It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, Pewlett-Hackard was provided with the following:
 
 - Narrow search for retirement eligibility
 - A specific number of employees retiring by title
@@ -34,7 +34,7 @@ However, after performing further analysis, it was found that the number of empl
 
 ## Fig.3
 
-### Count of Current Retirement-Ready employees (after filter)
+### Count of Current Retirement-Ready Employees (after filter)
 ![current_ret_elg.PNG](PNGs/current_ret_elg.png)
 
 
