@@ -7,7 +7,6 @@ CREATE TABLE departments (
 );
 SELECT * FROM departments;
 
-
 CREATE TABLE employees (
 	emp_no INT NOT NULL,
 	birth_date DATE NOT NULL,
@@ -19,6 +18,8 @@ CREATE TABLE employees (
 );
 SELECT * FROM employees;
 
+SELECT COUNT (emp_no)
+FROM employees;
 
 CREATE TABLE dept_manager (
 	dept_no VARCHAR(4) NOT NULL,
@@ -40,7 +41,10 @@ CREATE TABLE salaries (
   FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
   PRIMARY KEY (emp_no)
 );
-SELECT * FROM salaries
+SELECT * FROM salaries;
+
+SELECT AVG (DISTINCT salary)::numeric(10,2)
+FROM salaries;
 
 
 CREATE TABLE dept_emp (
@@ -113,8 +117,11 @@ WHERE de.to_date = ('9999-01-01');
 --check new table
 SELECT * From current_emp;
 
+SELECT COUNT (emp_no)
+FROM current_emp;
+
 -- Employee count by department number
-SELECT COUNT(ce.emp_no), de.dept_no
+SELECT COUNT(ce.emp_no), dept_no
 FROM current_emp as ce
 LEFT JOIN dept_emp as de
 ON ce.emp_no = de.emp_no
@@ -131,7 +138,6 @@ GROUP BY de.dept_no
 ORDER BY de.dept_no;
 
 SELECT * FROM retiring_emp_count;
-
 
 -- List 1: Employee Information
 SELECT * FROM salaries
@@ -188,6 +194,9 @@ ON (de.dept_no = d.dept_no);
 
 SELECT * FROM dept_info;
 
+SELECT COUNT (emp_no)
+FROM dept_info;
+
 --Sales dept. retiring employees table
 SELECT re.emp_no,
 re.first_name,
@@ -200,6 +209,9 @@ ON (re.emp_no = d.emp_no)
 WHERE d.dept_name = 'Sales';
 
 SELECT * FROM sales_retiring_info;
+
+SELECT COUNT (emp_no)
+FROM sales_retiring_info;
 
 --retiring employees from Sales & Development teams
 SELECT re.emp_no,
@@ -248,6 +260,8 @@ ORDER BY et.emp_no ASC, ti.to_date DESC;
 
 SELECT * FROM unique_titles;
 
+SELECT COUNT (emp_no)
+FROM unique_titles;
 
 --create a Retiring Titles table 
 SELECT COUNT(emp_no) as "count", title
@@ -257,7 +271,6 @@ GROUP BY title
 ORDER BY "count" DESC;
 
 SELECT * FROM retiring_titles;
-
 
 --DELIVERABLE 2
 
@@ -279,18 +292,20 @@ WHERE (et.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND ti.to_date = '9999-01-01'
 ORDER BY et.emp_no ASC;
 
-SELECT COUNT (emp_no)
-FROM mentorship_eligibility;
+--Mentorship eligible count by titles
+SELECT me.title,
+COUNT(me.emp_no)
+FROM mentorship_eligibility AS me
+GROUP BY me.title
+ORDER by COUNT (me.emp_no) DESC;
 
+--Vacancies needed to be filled
+SELECT COUNT (ut.emp_no) AS silver_tsunami,
+COUNT(me.emp_no) AS mentorship_eligibility,
+COUNT (ut.emp_no) - COUNT(me.emp_no) AS vacancies
+FROM unique_titles AS ut
+FULL OUTER JOIN mentorship_eligibility AS me
+ON me.emp_no = ut.emp_no;
 
 SELECT * FROM mentorship_eligibility;
-
-
-
-
-
-
-
-
-
 
