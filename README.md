@@ -12,7 +12,7 @@ Six CSV files were provided for this project. The files contained information ab
 
 ## Results
 
-The beginning of the analysis showed that there were 300,025 employees listed on the company's record. We then counted the employees eligible for retirement (born between 1952 and 1955) out of that list, and the result found 41,380 eligible employees. Due to the staggering number of retirement ready employees, we were tasked to break down the list by departments to find employees who were no longer with the company. After the employees' list was updated by counting current employees, it showed that 33,118 were eligible for retirement.
+The beginning of the analysis showed 300,025 employees listed on the company's record. We then counted the employees eligible for retirement (born between 1952 and 1955) out of that list, and the result found 41,380 eligible employees. Due to the staggering number of retirement ready employees, we were tasked to break down the list by departments to find employees who were no longer with the company. After the employees' list was updated by counting current employees, it showed that 33,118 were eligible for retirement.
 
 However, after performing further analysis, it was found that the number of employees eligible for retirement was 90,398...triple the amount of original number. It was also interesting to note that there were five listed managers for nine departments. At the end of the analysis, Pewlett-Hackard was provided with the following:
 
