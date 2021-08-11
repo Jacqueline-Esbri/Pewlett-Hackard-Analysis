@@ -3,7 +3,7 @@
 
 ## Overview of the Analysis
 
-For this assignment, we were introduced to Structured Query Language (SQL), pgAdmin, and PostgreSQL interface. PostgreSQL was used to create databases and pgAdmin was used to work with the data imported. The goal of was to ask questions about the data and discover relationships between data tables using relational databases.
+For this assignment, we were introduced to Structured Query Language (SQL), pgAdmin, and PostgreSQL interface. PostgreSQL was used to create databases and pgAdmin was used to work with the data imported. The goal of the assignment was to ask questions about the data and discover relationships between data tables using relational databases.
 
 A hypothetical organization named Pewlett-Hackard was looking to offer retirement packages for their employees who met certain criteria. Additionally, it was looking into which positions needed to be filled as a result of an expected "silver tsunami". The analysis was focused on determining the number of retiring employees by title, and identify employees who were eligible (based on their criteria) to partake in their planned mentorship program.
 
@@ -66,7 +66,7 @@ The company is also lacking management positions. There were five listed departm
 
 Out of 300 thousand plus employees, the average yearly salary was $66,485. This number seems rather low considering the amount of senior level positions in the company. However, the location of the company was not given in the dataset, which might have explained the average salary. In order to fill the staggering vacancies they face in the future, the company may need to adjust their salaries to attract new talent, and also keep their existing talent. Adjusting the salaries may prevent future costly turnovers. 
 
-Further, there were 1,549 employees eligible for the mentorship program. The company will need additional staff to accomplish the success of the planned program. A more comprehensive analysis is needed to determine ages of existing employees. The existing age bracket to qualify for the mentorship program should be lowered in order to enable younger talent to participate in the program. Our findings showed that 1,549 employees are eligible for the mentorship program, but 90,398 are retiring, which leaves 88,849 open vacancies without mentors.
+Further, there were 1,549 employees eligible for the mentorship program. The company will need additional staff to accomplish the success of the planned program. A more comprehensive analysis is needed to determine ages of existing employees. The current age bracket to qualify for the mentorship program should be lowered in order to enable younger talent to participate in the program. Our findings showed that 1,549 employees are eligible for the mentorship program, but 90,398 are retiring, which leaves 88,849 open vacancies without mentors.
 
 The analysis also showed that 5,800 employees are retiring from the Sales Department. The largest group of employees retiring by titles were Senior Engineers (29,414), followed by Senior Staff (28,255).
 
