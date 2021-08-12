@@ -5,9 +5,13 @@
 
 For this assignment, entity relationship diagrams were created, data modeling was performed, and an analysis on an employee database using SQL techniques was completed. The goal was to ask questions about the data and discover relationships between data tables using relational databases.
 
-A hypothetical organization named Pewlett-Hackard was looking to offer retirement packages for their employees who met certain criteria. Additionally, it was looking into which positions needed to be filled as a result of an expected "silver tsunami". The analysis was focused on determining the number of retiring employees by title, and identify employees who were eligible (based on their criteria) to partake in their planned mentorship program.
+Six CSV files were provided for this project. The files contained information about departments, employees, department employees, department managers, salaries, and employees titles. An ERD was designed was applied to the data. A SQL database was created and large CSV datasets were imported and exported into pgAdmin. The task entailed writing SQL statements to access and analyze the data. 
 
-Six CSV files were provided for this project. The files contained information about departments, employees, department employees, department managers, salaries, and employees titles. The task entailed creating queries to access and analyze of all the data. Common errors were also handled in the process, such as duplicate name entries due to outdated records.
+
+## Purpose
+
+A hypothetical organization was looking to offer retirement packages for their employees who met certain criteria. Additionally, it was looking into which positions needed to be filled as a result of an expected "silver tsunami". The analysis was focused on determining the number of retiring employees by title, and identify employees who were eligible (based on their criteria) to partake in their planned mentorship program.
+
 
 ## Results
 
