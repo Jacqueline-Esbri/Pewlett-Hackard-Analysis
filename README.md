@@ -3,7 +3,7 @@
 
 ## Overview of the Analysis
 
-For this assignment, we were introduced to Structured Query Language (SQL), pgAdmin, and PostgreSQL interface. PostgreSQL was used to create databases and pgAdmin was used to work with the data imported. The goal of the assignment was to ask questions about the data and discover relationships between data tables using relational databases.
+For this assignment, entity relationship diagrams were created, data modeling was performed, and an analysis on an employee database using SQL techniques was completed. The goal was to ask questions about the data and discover relationships between data tables using relational databases.
 
 A hypothetical organization named Pewlett-Hackard was looking to offer retirement packages for their employees who met certain criteria. Additionally, it was looking into which positions needed to be filled as a result of an expected "silver tsunami". The analysis was focused on determining the number of retiring employees by title, and identify employees who were eligible (based on their criteria) to partake in their planned mentorship program.
 
