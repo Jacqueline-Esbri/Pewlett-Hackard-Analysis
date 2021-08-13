@@ -1,9 +1,6 @@
 # Pewlett Hackard Analysis
-<!-- ![mod7.png](PNGs/mod7.png width="100" height="30") -->
+![mod7.png](PNGs/mod7.png)
 
-<p align='center'>
-    <img src=PNGs/mod7.png width="600" height="200">
-</p>
 
 ## Overview of the Analysis
 
